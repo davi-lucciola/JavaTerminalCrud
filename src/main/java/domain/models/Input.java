@@ -8,19 +8,19 @@ public class Input {
 
     public static double nextDouble(String txt) {
         System.out.print(txt);
-        double numberDouble = Double.parseDouble(input.next().trim().replace(',', '.'));
+        double numberDouble = Double.parseDouble(input.nextLine().trim().replace(',', '.'));
         return numberDouble;
     }
 
     public static int nextInt(String txt) {
         System.out.print(txt);
-        int numberInt = Integer.parseInt(input.next().trim());
+        int numberInt = Integer.parseInt(input.nextLine().trim());
         return numberInt;
     }
 
     public static String next(String txt) {
         System.out.print(txt);
-        String str = input.next().trim();
+        String str = input.nextLine().trim();
         return str;
     }
 
